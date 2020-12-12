@@ -1,0 +1,26 @@
+package refacroring.martinfowler.ch01phase1;
+
+import junit.framework.TestCase;
+import org.junit.Test;
+import refactoring.martinfowler.ch01phase1.RentalCustomer;
+
+public class RentalCustomerTest extends TestCase {
+
+
+
+
+    @Test
+    public void testBuildStatement() {
+
+        RentalCustomer rentalCustomer = CustomerData.getRentalCustomer김지수();
+
+        String movieRentalStatement = rentalCustomer.buildStatement();
+
+        System.out.println("RESULT : " + movieRentalStatement);
+
+        String expectedRentalStatement = CustomerData.getRentalCustomer김지수ExpectedResult();
+
+        assertEquals(movieRentalStatement, expectedRentalStatement);
+
+    }
+}
