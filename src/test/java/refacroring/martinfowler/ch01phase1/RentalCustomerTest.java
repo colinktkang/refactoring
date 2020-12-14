@@ -20,6 +20,8 @@ public class RentalCustomerTest extends TestCase {
 
         String expectedRentalStatement = CustomerData.getRentalCustomer김지수ExpectedResult();
 
+        System.out.println("EXPECTED : " + movieRentalStatement);
+
         assertEquals(movieRentalStatement, expectedRentalStatement);
 
     }

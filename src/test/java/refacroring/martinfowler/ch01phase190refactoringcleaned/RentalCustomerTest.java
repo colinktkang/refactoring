@@ -1,8 +1,8 @@
-package refacroring.martinfowler.ch01phase190refactoring;
+package refacroring.martinfowler.ch01phase190refactoringcleaned;
 
 import junit.framework.TestCase;
 import org.junit.Test;
-import refactoring.martinfowler.ch01phase190refactoring.RentalCustomer;
+import refactoring.martinfowler.ch01phase190refactoringcleaned.RentalCustomer;
 
 public class RentalCustomerTest extends TestCase {
 

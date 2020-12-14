@@ -1,4 +1,7 @@
-package refactoring.martinfowler.ch01phase190refactoring;
+package refactoring.martinfowler.ch01phase190refactoringcleaned.moviecategory;
+
+import refactoring.martinfowler.ch01phase190refactoringcleaned.Movie;
+import refactoring.martinfowler.ch01phase190refactoringcleaned.MoviePrice;
 
 public class MovieRegularPrice extends MoviePrice {
     public int getPriceCode() {
@@ -17,14 +20,6 @@ public class MovieRegularPrice extends MoviePrice {
 
         return resultAmount;
     }
-
-    /*
-    @Override
-    public int getDefaultPoint() {
-        return 1;
-    }
-
-     */
 
     @Override
     public int getPromotionPoint(int daysOfRented) {

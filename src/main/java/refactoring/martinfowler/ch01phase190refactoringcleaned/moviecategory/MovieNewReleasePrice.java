@@ -1,4 +1,7 @@
-package refactoring.martinfowler.ch01phase190refactoring;
+package refactoring.martinfowler.ch01phase190refactoringcleaned.moviecategory;
+
+import refactoring.martinfowler.ch01phase190refactoringcleaned.Movie;
+import refactoring.martinfowler.ch01phase190refactoringcleaned.MoviePrice;
 
 public class MovieNewReleasePrice extends MoviePrice {
     public int getPriceCode() {
